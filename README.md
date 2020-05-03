@@ -6,6 +6,10 @@ SMBIOS information has been randomized, you should use a tool such as https://gi
 
 Use this guide to fix your ROM (Just set your mac address) https://dortania.github.io/OpenCore-Desktop-Guide/post-install/iservices.html
 
+This EFI folder includes kexts RadeonBoost and AMD Power Tools https://github.com/trulyspinach/SMCAMDProcessor
+
+This EFI is tested with a Radeon VII. For AMD RX5700XT or similar, add agdpmod=pikera to the boot arguements.
+
 This is a graphical final release, if you are encountering issues, go into the boot arguements and re-add -v for verbose mode.
 
 This EFI is untested with the original AX series WIFI card. I've heard from another member that Bluetooth will work, but wifi didnt. It can probably be used with additional kexts. 
